@@ -2,6 +2,8 @@
 
 此项目供私人使用 
 
+原版代码：https://github.com/asharakeh/kitti_native_evaluation
+
 注意：
 
 - 用f-pointpilars检测时用如下指令
