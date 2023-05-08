@@ -1,5 +1,7 @@
 # kitti_native_evaluation
 
+此项目供私人使用 
+
 注意：
 
 - 用f-pointpilars检测时用如下指令
