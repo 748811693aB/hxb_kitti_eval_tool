@@ -1,0 +1,1 @@
+./evaluate_object_3d_offline /home/whut-4/Desktop/HXB/dataset/2017_KITTI_DATASET_ROOT/training/label_2 /home/whut-4/Desktop/HXB/F_Pointpillar/04-27/ZC/Frustum-Pointpillars/hxb_trainedmodel/eval_results
