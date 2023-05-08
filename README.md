@@ -2,6 +2,8 @@
 
 此项目供私人使用 
 
+此仓库在4号服务器保存路径：/home/whut-4/Desktop/HXB/05-04/kitti_native_evaluation-master
+
 原版代码：https://github.com/asharakeh/kitti_native_evaluation
 
 注意：
