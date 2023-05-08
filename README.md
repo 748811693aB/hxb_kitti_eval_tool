@@ -1,6 +1,19 @@
 # kitti_native_evaluation
 
+注意：
+
+- 用f-pointpilars检测时用如下指令
+
+  ```
+  python pytorch/train.py evaluate --config_path=configs/pointpillars/car/xyres_16.proto --model_dir=/home/whut-4/Desktop/HXB/F_Pointpillar/04-27/ZC/Frustum-Pointpillars/hxb_trainedmodel --pickle_result=False
+  ```
+
+  
+
+
+
 Disclaimer:
+
 - These days, I found this code to be too slow for the turnover rate in deep learning development. I personally switched to using numba as done in https://github.com/traveller59/second.pytorch to compute AP in much faster times (~10 seconds per full run on validation set). I recommend you take a look if you need faster code with python integration.
 
 Updates:
@@ -34,7 +47,7 @@ From inside the main folder do:
 Run the evalutaion by:
 
     ./evaluate_object_3d_offline groundtruth_dir result_dir
-    
+
 Note that you don't have to detect over all KITTI training data. The evaluator only evaluates samples whose result files exist.
 
 ## Data Format:
@@ -51,7 +64,7 @@ The detection format should be simillar to the KITTI dataset label format with 1
 | 3 | location | 3D object location x,y,z in camera coordinates (in meters)|
 | 1 | rotation_y | Rotation ry around Y-axis in camera coordinates [-pi..pi]|
 | 1 | score | Only for results: Float, indicating confidence in detection, needed for p/r curves, higher is better.|
- 
+
 Example:
 
 | type |truncated| occluded| alpha| bbox | dimensions | location | rotation_y| score|
