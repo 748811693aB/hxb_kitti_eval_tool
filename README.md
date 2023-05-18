@@ -15,9 +15,7 @@
   ```
 
 
-- 效果图：
 
-  ![effect_picture](effect_picture.png)
 
 
 
