@@ -8,7 +8,7 @@
 
 注意：
 
-- 用f-pointpilars检测时用如下指令
+- 用f-pointpilars检测时用如下指令来生成 KITTI label format
 
   ```
   python pytorch/train.py evaluate --config_path=configs/pointpillars/car/xyres_16.proto --model_dir=/home/whut-4/Desktop/HXB/F_Pointpillar/04-27/ZC/Frustum-Pointpillars/hxb_trainedmodel --pickle_result=False
