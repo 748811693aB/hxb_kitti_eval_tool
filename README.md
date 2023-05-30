@@ -7,7 +7,12 @@
 原版代码：https://github.com/asharakeh/kitti_native_evaluation
 
 注意：
-
+- 运行程序的指令：
+  ```
+  cd build
+  ./evaluate_object_3d_offline /home/whut-4/Desktop/HXB/dataset/2017_KITTI_DATASET_ROOT/training/label_2 /home/whut-4/Desktop/HXB/05-04/kitti_native_evaluation-master/fpp_rgbdetct_2_kitti_result
+  ```
+  待评估的检测结果txt文件保存在```/fpp_rgbdetct_2_kitti_result/data/```路径下
 - 用f-pointpilars检测时用如下指令来生成 KITTI label format
 
   ```
