@@ -7,13 +7,20 @@
 原版代码：https://github.com/asharakeh/kitti_native_evaluation
 
 注意：
-
+- 运行程序的指令：
+  ```
+  cd build
+  ./evaluate_object_3d_offline /home/whut-4/Desktop/HXB/dataset/2017_KITTI_DATASET_ROOT/training/label_2 /home/whut-4/Desktop/HXB/05-04/kitti_native_evaluation-master/fpp_rgbdetct_2_kitti_result
+  ```
+  待评估的检测结果txt文件保存在```/fpp_rgbdetct_2_kitti_result/data/```路径下
 - 用f-pointpilars检测时用如下指令来生成 KITTI label format
 
   ```
   python pytorch/train.py evaluate --config_path=configs/pointpillars/car/xyres_16.proto --model_dir=/home/whut-4/Desktop/HXB/F_Pointpillar/04-27/ZC/Frustum-Pointpillars/hxb_trainedmodel --pickle_result=False
   ```
-
+## 添加脚本代码
+### 1、fpp_rgb_detection2kitti.py
+    - 功能：将FPP的作者rgb_detection文件夹的txt文件转化为kitti结果格式
 
 
 
