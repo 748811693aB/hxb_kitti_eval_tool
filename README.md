@@ -13,7 +13,9 @@
   ```
   python pytorch/train.py evaluate --config_path=configs/pointpillars/car/xyres_16.proto --model_dir=/home/whut-4/Desktop/HXB/F_Pointpillar/04-27/ZC/Frustum-Pointpillars/hxb_trainedmodel --pickle_result=False
   ```
-
+## 添加脚本代码
+### 1、fpp_rgb_detection2kitti.py
+    - 功能：将FPP的作者rgb_detection文件夹的txt文件转化为kitti结果格式
 
 
 
